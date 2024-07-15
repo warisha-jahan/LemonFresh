@@ -1,0 +1,180 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    /* Adjust max-width to preference */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 0 1em;
+    /* Create equal spacing on the left and right */
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(45deg, #f3e334de 50%, #a9de6ced), url(All-Images/header-bg.jpg) no-repeat center center/cover;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    padding: 1rem;
+    margin: 1rem;
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex
+}
+
+.nav-links a {
+    margin: 10px 20px;
+    text-decoration: none;
+
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* Header Setting */
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 1em;
+    margin: 1.5em 0;
+
+}
+
+.header-text {
+    max-width: 600px;
+}
+
+.header-text h3 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.header-text h1 {
+    margin: 0.5em 0;
+    font-size: 48px;
+
+}
+
+.header-text h1 span {
+    color: #004600;
+}
+
+.header-text p {
+    font-size: 17px;
+}
+
+.product-img img {
+    max-width: 100%;
+    height: auto;
+    transition: animation 2s;
+    animation: zoomIn 5s infinite ease;
+
+}
+
+
+
+.contact-us {
+    padding: 12px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-weight: 700px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.7s;
+}
+
+
+.contact-us:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+
+
+#check-btn {
+    display: none;
+}
+
+#check-label {
+    display: none;
+}
+
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(1.1);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+
+}
+
+
+/* Benefits Section  */
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 20% 0;
+}
+
+
+.card {
+    padding: 20px;
+    background:linear-gradient(45deg,#f3e434 20%,#a8de6c 60%);
+    max-width: calc(3 * 100%);
+    margin: 10px 20px;
+
+}
+
+.benefit {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    border:1px solid rgba(0, 0, 0, 0.359);
+    
+}
+
+.benefit h2{
+    font-size: 20px;
+}

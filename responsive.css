@@ -38,7 +38,7 @@
 
     .nav-links {
         transition: left 1000ms ease-in-out;
-        display:flex;
+        display: flex;
         background-color: black;
         position: fixed;
         top: 10%;
@@ -49,7 +49,7 @@
         z-index: 100;
         width: 100%;
         text-align: center;
-       
+
 
 
     }
@@ -77,61 +77,88 @@
     /* Benefit Section */
 
 
-    .benefit h2{
+    .benefit h2 {
         font-size: 18px;
     }
 
-    .content-container{
+    .content-container {
         display: flex;
         flex-direction: column;
     }
 
     /* Price Container */
 
-    .price-container{
+    .price-container {
         flex-direction: column;
     }
-    .price-card-container{
+
+    .price-card-container {
         width: 80%;
     }
 
-    .price-card strong{
+    .price-card strong {
         font-size: 14px;
         color: grey;
     }
-    .price-card h2{
+
+    .price-card h2 {
         font-size: 29px;
         color: #002000;
-      
-        
+
+
     }
-    
-    .price-card h3{
+
+    .price-card h3 {
         font-size: 45px;
         color: #004600;
-       
+
     }
-    .price-card span{
+
+    .price-card span {
         font-size: 17px;
-    
+
     }
-    
-    .price-card p{
+
+    .price-card p {
         color: grey;
     }
 
 
     /* All Best Benefits Section */
-    
-    .best-benefits-container{
+
+    .best-benefits-container {
         flex-direction: column;
     }
 
-    .benefit-content{
-        width: 80%;   
+    .benefit-content {
+        width: 80%;
     }
 
-   
+    /* Guide Container */
+    .guide-content h1 {
+        font-size:35px;
+    }
+
+    .guide-content p {
+        font-size:17px;
+    }
+
+
+    .steps-container{
+        flex-direction: column;
+    }
+
+    .steps{
+        width: 100%;
+    }
+
+    
+    .steps h3{
+       font-size: 22px;
+    }
+    .steps p{
+        font-size: 15px;
+     }
 }
 
 
@@ -179,45 +206,67 @@
     }
 
 
-     /* Benefit Section */
+    /* Benefit Section */
 
 
-     .benefit h2{
+    .benefit h2 {
         font-size: 16px;
     }
 
 
     /* Price Container */
 
-    .price-container{
+    .price-container {
         flex-direction: column;
     }
-    .price-card-container{
+
+    .price-card-container {
         width: 60%;
     }
 
-    .price-card strong{
+    .price-card strong {
         font-size: 13px;
         color: grey;
     }
-    .price-card h2{
+
+    .price-card h2 {
         font-size: 28px;
         color: #002000;
-      
-        
+
+
     }
-    
-    .price-card h3{
+
+    .price-card h3 {
         font-size: 40px;
         color: #004600;
-       
+
     }
-    .price-card span{
+
+    .price-card span {
         font-size: 16px;
-    
+
     }
-    
-    .price-card p{
+
+    .price-card p {
         color: grey;
     }
+
+
+    /* Guide Container */
+
+    .guide-content h1 {
+        font-size:32px;
+    }
+
+    .guide-content p {
+        font-size:15px;
+    }
+
+    .steps h3{
+       font-size: 20px;
+    }
+    .steps p{
+        font-size: 14px;
+     }
+
 }

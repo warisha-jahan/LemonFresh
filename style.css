@@ -88,6 +88,7 @@ nav {
     font-size: 17px;
 }
 
+
 .product-img img {
     max-width: 100%;
     height: auto;
@@ -296,4 +297,62 @@ nav {
 
 .benefit-content p{
     color: grey;
+}
+
+
+
+
+
+
+/* Guide Container */
+
+
+.guide-container{
+    background: linear-gradient(45deg, #f3e334de 50%, #a9de6ced), url(All-Images/header-bg.jpg) no-repeat center center/cover;
+    margin: 10% auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.guide-content{
+    text-align: center;
+    margin: 20px 10px;
+    
+    
+}
+
+.guide-content h1{
+    font-size: 30px;
+}
+.guide-content p{
+    font-size: 17px;
+}
+.steps-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    padding: 25px;
+    
+}
+
+.steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+.steps-icon{
+    padding: 40px;
+    border-radius: 100%;
+    border: 3px solid rgba(0, 0, 0, 0.126);
 }

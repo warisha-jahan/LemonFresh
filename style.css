@@ -178,3 +178,67 @@ nav {
 .benefit h2{
     font-size: 20px;
 }
+
+
+/* Price Section */
+
+.price-container{
+    background: linear-gradient(45deg, #f3e334de 50%, #a9de6ced), url(All-Images/header-bg.jpg) no-repeat center center/cover;
+    margin: 10% auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.price-card-container{
+    background-color: white;
+   width: 40%;
+   padding: 35px;
+}
+
+.price-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.236);
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.price-card strong{
+    font-size: 15px;
+    color: grey;
+}
+.price-card h2{
+    font-size: 30px;
+    color: #002000;
+  
+    
+}
+
+.price-card h3{
+    font-size: 50px;
+    color: #004600;
+   
+}
+.price-card span{
+    font-size: 18px;
+   
+}
+
+.price-card p{
+    color: grey;
+}
+
+.price-btn{
+    background-color: #004600;
+}
+
+.price-btn:hover{
+    border: 2px solid #004600;
+    color: #004600;
+}

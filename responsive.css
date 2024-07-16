@@ -80,6 +80,37 @@
     .benefit h2{
         font-size: 18px;
     }
+
+    /* Price Container */
+
+    .price-container{
+        flex-direction: column;
+    }
+
+    .price-card strong{
+        font-size: 14px;
+        color: grey;
+    }
+    .price-card h2{
+        font-size: 29px;
+        color: #002000;
+      
+        
+    }
+    
+    .price-card h3{
+        font-size: 45px;
+        color: #004600;
+       
+    }
+    .price-card span{
+        font-size: 17px;
+    
+    }
+    
+    .price-card p{
+        color: grey;
+    }
 }
 
 
@@ -89,6 +120,7 @@
 
 
 @media (max-width:550px) {
+
 
     .header-text {
         margin-bottom: 1em;
@@ -131,5 +163,37 @@
 
      .benefit h2{
         font-size: 16px;
+    }
+
+
+    /* Price Container */
+
+    .price-container{
+        flex-direction: column;
+    }
+
+    .price-card strong{
+        font-size: 13px;
+        color: grey;
+    }
+    .price-card h2{
+        font-size: 28px;
+        color: #002000;
+      
+        
+    }
+    
+    .price-card h3{
+        font-size: 40px;
+        color: #004600;
+       
+    }
+    .price-card span{
+        font-size: 16px;
+    
+    }
+    
+    .price-card p{
+        color: grey;
     }
 }

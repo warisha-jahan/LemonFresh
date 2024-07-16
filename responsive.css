@@ -159,6 +159,16 @@
     .steps p{
         font-size: 15px;
      }
+
+     /* Product Pricing Section */
+
+
+     .product-content h1 {
+        font-size: 35px;
+    }
+     .product-sell {
+       flex-direction: column;
+    }
 }
 
 
@@ -268,5 +278,14 @@
     .steps p{
         font-size: 14px;
      }
+
+
+     
+     /* Product Pricing Section */
+
+
+     .product-content h1 {
+        font-size: 30px;
+    }
 
 }

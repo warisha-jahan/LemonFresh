@@ -159,7 +159,7 @@ nav {
 
 .card {
     padding: 20px;
-    background:linear-gradient(45deg,#f3e434 20%,#a8de6c 60%);
+    background: linear-gradient(45deg, #f3e434 20%, #a8de6c 60%);
     max-width: calc(3 * 100%);
     margin: 10px 20px;
 
@@ -172,11 +172,11 @@ nav {
     align-items: center;
     flex-direction: column;
     height: 200px;
-    border:1px solid rgba(0, 0, 0, 0.359);
-    
+    border: 1px solid rgba(0, 0, 0, 0.359);
+
 }
 
-.benefit h2{
+.benefit h2 {
     font-size: 20px;
 }
 
@@ -184,11 +184,9 @@ nav {
 
 
 
-
-
 /* Price Section */
 
-.price-container{
+.price-container {
     background: linear-gradient(45deg, #f3e334de 50%, #a9de6ced), url(All-Images/header-bg.jpg) no-repeat center center/cover;
     margin: 10% auto;
     width: 100%;
@@ -199,13 +197,13 @@ nav {
 
 
 
-.price-card-container{
+.price-card-container {
     background-color: white;
-   width: 40%;
-   padding: 35px;
+    width: 40%;
+    padding: 35px;
 }
 
-.price-card{
+.price-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,38 +211,41 @@ nav {
     padding: 20px;
     flex-direction: column;
     text-align: center;
-   
+
 }
-.price-card strong{
+
+.price-card strong {
     font-size: 17px;
     color: grey;
 }
-.price-card h2{
+
+.price-card h2 {
     font-size: 30px;
     color: #002000;
-  
-    
+
+
 }
 
-.price-card h3{
+.price-card h3 {
     font-size: 50px;
     color: #004600;
-   
-}
-.price-card span{
-    font-size: 18px;
-   
+
 }
 
-.price-card p{
+.price-card span {
+    font-size: 18px;
+
+}
+
+.price-card p {
     color: grey;
 }
 
-.price-btn{
+.price-btn {
     background-color: #004600;
 }
 
-.price-btn:hover{
+.price-btn:hover {
     border: 2px solid #004600;
     color: #004600;
 }
@@ -253,49 +254,55 @@ nav {
 
 /* Best Benefits Of Product Section */
 
-.best-benefits{
+.best-benefits {
     text-align: center;
 }
 
-.best-benefits h1{
-      font-size: 30px;
+.best-benefits h2 {
+    margin: 0.5em 0;
+    font-size: 40px;
+
 }
 
-.all-benefits{
+.best-benefits h2 span {
+    color: #004600;
+}
+
+.all-benefits {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.best-benefits-container{
+.best-benefits-container {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
-.best-benefits-section{
+.best-benefits-section {
     text-align: center;
 }
 
 
-.benefit-box{
+.benefit-box {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.benefit-content{
+.benefit-content {
     text-align: left;
     width: 50%;
     margin: 10px 20px;
 }
 
-.benefit-content h2{
+.benefit-content h2 {
     font-size: 18px;
 }
 
-.benefit-content p{
+.benefit-content p {
     color: grey;
 }
 
@@ -307,7 +314,7 @@ nav {
 /* Guide Container */
 
 
-.guide-container{
+.guide-container {
     background: linear-gradient(45deg, #f3e334de 50%, #a9de6ced), url(All-Images/header-bg.jpg) no-repeat center center/cover;
     margin: 10% auto;
     width: 100%;
@@ -318,29 +325,39 @@ nav {
     flex-direction: column;
 }
 
-.guide-content{
+.guide-content {
     text-align: center;
     margin: 20px 10px;
-    
-    
+
+
 }
 
-.guide-content h1{
-    font-size: 30px;
+.guide-content h2 {
+    margin: 0.5em 0;
+    font-size: 40px;
+
 }
-.guide-content p{
+
+.guide-content h2 span {
+    color: #004600;
+}
+
+
+
+.guide-content p {
     font-size: 17px;
 }
-.steps-container{
+
+.steps-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 10px;
     padding: 25px;
-    
+
 }
 
-.steps{
+.steps {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -351,8 +368,130 @@ nav {
     margin: 10px 20px;
 }
 
-.steps-icon{
+.steps-icon {
     padding: 40px;
     border-radius: 100%;
     border: 3px solid rgba(0, 0, 0, 0.126);
+}
+
+
+
+/* Product Container */
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-content {
+    text-align: center;
+}
+
+
+.product-content h2 {
+    margin: 0.5em 0;
+    font-size: 40px;
+
+}
+
+.product-content h2 span {
+    color: #004600;
+}
+
+
+.product-sell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 20px;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.33);
+    transition: box-shadow 400ms;
+}
+
+.product:hover {
+    box-shadow: 3px 3px 18px 4px rgba(128, 128, 128, 0.697);
+}
+
+.product h3 {
+    color: #004600;
+    font-size: 25px;
+}
+.product p {
+    font-size: 18px;
+}
+.product img {
+    max-width: 70%;
+}
+
+.product button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    border: 3px solid #004600;
+    color: #004600;
+    font-size: 18px;
+}
+
+.product:hover button{
+    background-color: #004600;
+    color: white;
+    border: none;
+}
+
+
+/* Testimonial Section Start */
+
+.testimonial-container{
+    background: linear-gradient(45deg, #f3e334de 50%, #a9de6ced), url(All-Images/header-bg.jpg) no-repeat center center/cover;
+    margin: 10% auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+.testimonail-content h2 {
+    margin: 0.5em 0;
+    font-size: 35px;
+
+}
+
+.testimonail-content h2 span {
+    color: #004600;
+}
+
+
+.testimonial-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 10px;
+    margin: 20px 10px;
+}
+.testimonial-card img{
+   max-width: 30%;
+   border-radius:30%;
+   padding: 20px;
+   margin: 10px;
+   border: 5px solid rgba(255, 255, 255, 0.376);
 }

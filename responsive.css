@@ -81,10 +81,18 @@
         font-size: 18px;
     }
 
+    .content-container{
+        display: flex;
+        flex-direction: column;
+    }
+
     /* Price Container */
 
     .price-container{
         flex-direction: column;
+    }
+    .price-card-container{
+        width: 80%;
     }
 
     .price-card strong{
@@ -111,6 +119,19 @@
     .price-card p{
         color: grey;
     }
+
+
+    /* All Best Benefits Section */
+    
+    .best-benefits-container{
+        flex-direction: column;
+    }
+
+    .benefit-content{
+        width: 80%;   
+    }
+
+   
 }
 
 
@@ -170,6 +191,9 @@
 
     .price-container{
         flex-direction: column;
+    }
+    .price-card-container{
+        width: 60%;
     }
 
     .price-card strong{

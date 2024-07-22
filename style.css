@@ -24,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 
 }
 
@@ -34,7 +35,13 @@ nav {
     text-decoration: none;
     font-size: 28px;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
 }
+
+
+
+
 
 .nav-links {
     padding: 1rem;
@@ -46,11 +53,16 @@ nav {
     margin: 10px 20px;
     text-decoration: none;
 
-    font-size: 18px;
+    font-size: 17px;
     color: black;
     cursor: pointer;
 }
 
+.nav-links a:hover{
+    color: #004600;
+    font-weight: bold;
+  
+}
 
 /* Header Setting */
 
@@ -100,8 +112,7 @@ nav {
 
 
 .contact-us {
-    padding: 12px 20px;
-    border: none;
+    padding: 10px 20px;
     background-color: black;
     color: white;
     font-family: arial;
@@ -110,6 +121,8 @@ nav {
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.7s;
+    text-decoration: none;
+    
 }
 
 
@@ -424,9 +437,11 @@ nav {
     color: #004600;
     font-size: 25px;
 }
+
 .product p {
     font-size: 18px;
 }
+
 .product img {
     max-width: 70%;
 }
@@ -442,7 +457,7 @@ nav {
     font-size: 18px;
 }
 
-.product:hover button{
+.product:hover button {
     background-color: #004600;
     color: white;
     border: none;
@@ -451,7 +466,7 @@ nav {
 
 /* Testimonial Section Start */
 
-.testimonial-container{
+.testimonial-container {
     background: linear-gradient(45deg, #f3e334de 50%, #a9de6ced), url(All-Images/header-bg.jpg) no-repeat center center/cover;
     margin: 10% auto;
     width: 100%;
@@ -461,37 +476,152 @@ nav {
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+
 }
-.testimonail-content h2 {
+
+.testimonial-content {
+    padding: 20px;
+}
+
+.testimonial-content h2 {
     margin: 0.5em 0;
     font-size: 35px;
 
+
 }
 
-.testimonail-content h2 span {
+.testimonial-content h2 span {
     color: #004600;
 }
 
 
-.testimonial-cards-container{
+.testimonial-cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px 10px;
+    padding: 20px;
 }
 
-.testimonial-card{
+.testimonial-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 20%;
-    padding: 10px;
+    padding: 10px 30px;
     margin: 20px 10px;
 }
-.testimonial-card img{
-   max-width: 30%;
-   border-radius:30%;
-   padding: 20px;
-   margin: 10px;
-   border: 5px solid rgba(255, 255, 255, 0.376);
+
+
+.testimonial-card strong {
+    font-size: 22px;
+}
+
+
+
+
+
+/* FOOTER START */
+
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px ,1fr));    
+    justify-items: center;
+
+}
+
+.footer-section {
+    padding: 20px;
+    margin: 10px;
+
+}
+.logo-section h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo-section p{
+    color: gray;
+    line-height: 20px;
+    font-size: 17px;
+}
+.footer-section li{
+    color: gray;
+    list-style-type: none;
+    margin: 15px 0px;
+    font-size: 17px;
+   
+}
+
+.footer-section li img{
+   width: 5%;
+   margin: 0px 10px;
+}
+
+.footer-icons img{
+  
+    margin: 5px 3px;
+    padding: 5px;
+
+  
+}
+
+
+
+.link-section li a{
+      text-decoration: none;
+      color: gray;
+      list-style-type: none;
+      transition: all 400ms;
+      position: relative;
+      left: 0;
+      cursor: pointer;
+       
+}
+
+.link-section li a:hover{
+    color: #004600;
+    left: 4px;
+  
+    
+}
+.footer-bottom{
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background: #cccccc34; /* Adjust color as needed */
+
+}
+
+
+
+
+
+
+
+
+
+/* About Us Page */
+
+.text-section .About-title{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   margin-top:10% ;
+}
+
+.text-section .About-pera{
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20%;
 }

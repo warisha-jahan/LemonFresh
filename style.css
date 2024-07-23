@@ -600,9 +600,9 @@ hr {
 
 
 
-/* About Us Page */
+   /* Anohter Pages Style. */
 
-.text-section .About-title{
+.text-section .page-title{
     padding: 10px;
     font-size: 50px;
     text-align: center;
@@ -612,7 +612,7 @@ hr {
    animation:jackInTheBox 1s;
 }
 
-.text-section .About-pera{
+.text-section .page-pera{
     padding: 10px;
     text-align: center;
     font-size:15px;

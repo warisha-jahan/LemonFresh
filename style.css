@@ -166,8 +166,10 @@ nav {
     max-width: calc(3 * 100%);
     margin: 10px 20px;
     animation:fadeInDown 1s;
-
+    text-wrap: wrap;
+   
 }
+
 
 .benefit {
     color: black;
@@ -177,6 +179,8 @@ nav {
     flex-direction: column;
     height: 200px;
     border: 1px solid rgba(0, 0, 0, 0.359);
+    text-wrap: wrap;
+    padding: 20px;
 
 }
 
@@ -184,7 +188,11 @@ nav {
     font-size: 20px;
 }
 
-
+.benefit p{
+    max-width: 100%;
+    word-wrap: break-word; 
+  
+}
 
 
 
@@ -559,7 +567,6 @@ nav {
 
   
 }
-
 
 
 .link-section li a{

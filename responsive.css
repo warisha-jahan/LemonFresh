@@ -223,8 +223,14 @@
 
         font-size: 15px;
     }
+      
 
-
+    /* Footer Setup */
+      
+    .footer-container {
+        justify-items: left;
+    
+    }
 
 
     /* About Us Page */
@@ -239,6 +245,12 @@
         padding: 10px;
         font-size: 15px;
         margin-bottom: 17%;
+    }
+    
+    /* Contact Us Page */
+
+    .query h2 {
+        font-size: 33px;
     }
 
 }
@@ -299,7 +311,7 @@
 
     /* Benefit Section */
 
-
+    
     .benefit h2 {
         font-size: 16px;
     }
@@ -398,6 +410,13 @@
         padding: 10px;
         font-size: 13px;
         margin-bottom: 16%;
+    }
+      
+
+    /* Contact Us Page */
+
+    .query h2 {
+        font-size: 30px;
     }
 
 
